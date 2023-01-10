@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background: #F55A5A;
+    padding: 10px;
+    height: 50px;
+    gap: 10px;
+}
+
+.nav h3 {
+    align-self: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+.nav-icon {
+    filter: invert(94%) sepia(100%) saturate(0%) hue-rotate(286deg) brightness(107%) contrast(106%);
+}
+
+.card-list{
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.card-pic{
+    height: 260px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-loc {
+    display: flex;
+    gap: 10px;    
+}
+
+.card-loc-icon {
+    width: 12px;
+    filter: invert(83%) sepia(55%) saturate(7076%) hue-rotate(320deg) brightness(91%) contrast(112%);
+}
+
+.card-loc a{
+    text-decoration-line: underline;
+    color: #918E9B;
+    font-size: 13px;
+    align-self: center;
+}
+
+.card-info {
+    padding: 20px;
+}
+
+.card-country{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    align-self: center;
+    color: #2B283A; 
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 20px 0 40px 0;
+    color: #2B283A;
+}
+
+.card-date {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 12px;
+    margin: 20px 0;
+    color: #2B283A;
+}
+
+.card-desc {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    /* or 15px */
+
+    color: #2B283A;
+}
